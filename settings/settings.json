@@ -1,0 +1,53 @@
+[
+    {
+        "type": "title",
+        "title": "Configuraciones"
+    },
+    {
+        "type": "bool",
+        "title": "Start Address",
+        "desc": "On: Left - Right | Off: Right - Left",
+        "section": "pymulator",
+        "key": "dir",
+        "true": "auto"
+    },
+    {
+        "type": "numeric",
+        "title": "Initial Position",
+        "desc": "Enter the inital position of the disk head",
+        "section": "pymulator",
+        "key": "init_pos"
+    },
+    {
+        "type": "path",
+        "title": "Archive",
+        "desc": "List of Requirements",
+        "section": "pymulator",
+        "key": "file"
+    },
+    {
+        "type": "string",
+        "title": "List of Requirements",
+        "desc": "Enter the list of simulator",
+        "section": "pymulator",
+        "key": "req_list"
+    },
+    {
+        "type": "title",
+        "title": ""
+    },
+    {
+        "type": "numeric",
+        "title": "Requirements",
+        "desc": "Quantity desired random requirements",
+        "section": "pymulator",
+        "key": "reqs"
+    },
+    {
+        "type": "numeric",
+        "title": "Page Faults",
+        "desc": "Enter the page faults",
+        "section": "pymulator",
+        "key": "pf"
+    }
+]
